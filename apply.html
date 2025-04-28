@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Apply - Matthias Co-Living</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Apply for Residency</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="soberliving.html">Sober Living</a>
+    <a href="apply.html">Apply</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="content">
+  <h2>Application Form</h2>
+  <form action="https://formspree.io/f/{your-form-id}" method="POST" class="intake-form">
+    <label for="full-name">Full Name:</label>
+    <input type="text" id="full-name" name="full-name" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="text" id="phone" name="phone" required>
+
+    <label for="message">Tell us a little about yourself:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<footer>
+  <p>Contact us: 1-800-555-5555 | Riverside, CA</p>
+  <p>© 2025 Matthias Co-Living. All rights reserved.</p>
+</footer>
+</body>
+</html>
