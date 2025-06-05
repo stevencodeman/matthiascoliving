@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background: #0a192f;
+    background: #131f31;
     color: white;
     text-align: center;
     padding: 20px;
@@ -162,4 +162,30 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+}
+
+.site-logo {
+    height: 360px; /* Change this value if you want a larger/smaller logo */
+    width: auto;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo-link {
+    display: inline-block;
+}
+.footer-badges {
+    margin-bottom: 15px;
+}
+
+.vosb-badge {
+    height: 265px;
+    width: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    padding: 5px;
 }
