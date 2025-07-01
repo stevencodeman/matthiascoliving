@@ -55,7 +55,7 @@ nav {
 
 /* Hero Section */
 .hero {
-    background: url('images/hero.jpg') center center/cover no-repeat;
+    background: url('images/stuck2.jpg') center center/cover no-repeat;
     height: 90vh;
     display: flex;
     align-items: center;
@@ -188,4 +188,17 @@ footer {
     background: #fff;
     box-shadow: 0 2px 8px rgba(0,0,0,0.06);
     padding: 5px;
+}
+.about-hero-image {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.full-width-banner {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 8px;
 }
